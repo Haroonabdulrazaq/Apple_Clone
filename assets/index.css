@@ -4,5 +4,111 @@
   padding: 0;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 110vh 15vh;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80vh 30vh;
+}
+
+.hero {
+  background: skyblue;
+  height: 100%;
+  width: 100%;
+  background: url("https://web.archive.org/web/20140228165833im_/https://www.apple.com/your-verse/home/images/expedition_hero.jpg")
+    no-repeat;
+}
+
+.header1 {
+  color: white;
+  font-size: 3.5em;
+  font-weight: 200;
+  line-height: 1.5em;
+  margin: 2em auto 1em;
+  width: 50%;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: lighter;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1em;
+  color: white;
+}
+.play-btn {
+  height: 150px;
+  width: 150px;
+  background: url("assets/img/play-button-svgrepo-com.svg") no-repeat;
+}
+
+.grid {
+  height: 100%;
+  width: 100%;
+  margin: 1px 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-1 {
+  background: brown;
+  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_iphone5s.jpg")
+    no-repeat;
+}
+.grid-2 {
+  background: rgb(165, 252, 3);
+  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_iphone5c.jpg")
+    no-repeat;
+}
+.grid-3 {
+  background: white;
+  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_30_years.jpg")
+    no-repeat;
+}
+.grid-4 {
+  background: rgb(165, 252, 3);
+  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg")
+    no-repeat;
+}
+.footer {
+  /* background: firebrick; */
+  height: 100%;
+  width: 100%;
+}
+.main-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* background: red; */
+  font-size: 0.6em;
+  width: 70%;
+  margin: 2em auto 0.3em;
+}
+ul > li {
+  display: inline-block;
+}
+ul li a {
+  border-right: 0.5px solid #aaa;
+}
+.contact {
+  width: 100%;
+  margin-left: 21em;
+  font-size: 0.6em;
+}
+.footer a {
+  padding: 3px;
+  text-decoration: none;
+  color: rgb(30, 112, 145);
+  font-weight: 600;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
