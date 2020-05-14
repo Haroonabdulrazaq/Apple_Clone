@@ -4,12 +4,58 @@
   padding: 0;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 110vh 15vh;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.navigation {
+  background: linear-gradient(#444 50%, #333 30%, #444);
+  position: absolute;
+  top: 3em;
+  left: 15em;
+  border-radius: 5px;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list li {
+  padding: 1.3em; /* Dont tamper with this value */
+  border-right: 1px solid #333;
+  opacity: 0.8;
+}
+
+.nav-list li:hover {
+  cursor: pointer;
+}
+
+.nav-list li a:hover {
+  text-decoration: none;
+}
+
+.input {
+  width: 7em;
+  border-radius: 7px;
+  padding-left: 1em;
+  background: #444;
+}
+.input:focus {
+  width: 10em;
+  background: #fff;
+}
+
 .container {
+  position: relative;
   height: 100%;
   width: 100%;
   display: grid;
@@ -21,8 +67,8 @@ body {
   background: skyblue;
   height: 100%;
   width: 100%;
-  background: url("https://web.archive.org/web/20140228165833im_/https://www.apple.com/your-verse/home/images/expedition_hero.jpg")
-    no-repeat;
+  background: url("https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg")
+    95% 95% no-repeat;
 }
 
 .header1 {
@@ -44,11 +90,22 @@ p {
   padding-bottom: 1em;
   color: white;
 }
-.play-btn {
-  height: 150px;
-  width: 150px;
-  background: url("assets/img/play-button-pngrepo-com.png") no-repeat;
+/* .para {
+  position: relative;
 }
+
+.play-btn {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: url("play-btn.png") no-repeat;
+  background: white;
+  cursor: pointer;
+} */
 
 .grid {
   height: 100%;
@@ -79,15 +136,14 @@ p {
     no-repeat;
 }
 .footer {
-  /* background: firebrick; */
   height: 100%;
   width: 100%;
+  color: black;
 }
 .main-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  /* background: red; */
   font-size: 0.6em;
   width: 70%;
   margin: 2em auto 0.3em;
@@ -95,13 +151,13 @@ p {
 ul > li {
   display: inline-block;
 }
-ul li a {
-  border-right: 0.5px solid #aaa;
+.footer-links li a {
+  border-right: 0.5px solid #999;
 }
 .contact {
   width: 100%;
-  margin-left: 21em;
-  font-size: 0.6em;
+  margin-left: 18em;
+  font-size: 0.7em;
 }
 .footer a {
   padding: 3px;
