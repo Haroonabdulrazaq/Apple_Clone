@@ -13,30 +13,36 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
+.anchor:hover {
   text-decoration: underline;
 }
+
 .navigation {
-  background: linear-gradient(#444 50%, #333 30%, #444);
+  background: linear-gradient(#888 50%, #444 30%, #888);
   position: absolute;
   top: 3em;
   left: 15em;
   border-radius: 5px;
   width: 65%;
+  height: 3em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
+.logo {
+  width: 25x;
+  height: 25px;
+}
 
 .nav-list li {
-  padding: 1.3em; /* Dont tamper with this value */
-  border-right: 1px solid #333;
-  opacity: 0.8;
+  padding: 0 1em;
 }
 
 .nav-list li:hover {
+  padding: 1em;
   cursor: pointer;
+  background: linear-gradient(#999 30%, #888 30%, #999);
 }
 
 .nav-list li a:hover {
@@ -46,9 +52,9 @@ a:hover {
 .input {
   width: 7em;
   border-radius: 7px;
-  padding-left: 1em;
   background: #444;
 }
+
 .input:focus {
   width: 10em;
   background: #fff;
@@ -90,22 +96,18 @@ p {
   padding-bottom: 1em;
   color: white;
 }
-/* .para {
-  position: relative;
-}
 
 .play-btn {
-  display: inline-block;
+  display: block;
   height: 30px;
   width: 30px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  background: url("play-btn.png") no-repeat;
-  background: white;
+  position: relative;
+  top: -30px;
+  left: 595px;
+
   cursor: pointer;
-} */
+  color: white;
+}
 
 .grid {
   height: 100%;
@@ -135,11 +137,7 @@ p {
   background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg")
     no-repeat;
 }
-.footer {
-  height: 100%;
-  width: 100%;
-  color: black;
-}
+
 .main-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -148,6 +146,7 @@ p {
   width: 70%;
   margin: 2em auto 0.3em;
 }
+
 ul > li {
   display: inline-block;
 }
