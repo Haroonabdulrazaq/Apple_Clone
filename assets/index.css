@@ -21,37 +21,46 @@ a {
   background: linear-gradient(#888 50%, #444 30%, #888);
   position: absolute;
   top: 3em;
-  left: 15em;
+  left: 13em;
   border-radius: 5px;
-  width: 65%;
-  height: 3em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
+
+.nav-list {
+  padding: 0;
+}
+
 .logo {
-  width: 25x;
-  height: 25px;
+  width: 20x;
+  height: 20px;
+}
+.link {
+  padding: 0.5em 1.7em;
+  border-right: 1px solid #999;
+}
+.link:hover {
+  background: linear-gradient(#555 50%, #333 30%, #555);
 }
 
-.nav-list li {
-  padding: 0 1em;
-}
-
-.nav-list li:hover {
+/* .nav-list li:hover {
   padding: 1em;
   cursor: pointer;
-  background: linear-gradient(#999 30%, #888 30%, #999);
-}
+  background: linear-gradient(#999 30%, #888 30%, #999); 
+} */
 
 .nav-list li a:hover {
   text-decoration: none;
 }
-
+form {
+  padding: 0.5em;
+}
 .input {
   width: 7em;
   border-radius: 7px;
+
   background: #444;
 }
 
@@ -59,7 +68,6 @@ a {
   width: 10em;
   background: #fff;
 }
-
 .container {
   position: relative;
   height: 100%;
