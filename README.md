@@ -22,6 +22,8 @@ Clone Apple home page
 ## Grid section
 
 - Showing some grid picture directly under the hero image
+- The pictures includes some product image
+- Below it is footer section
 
 ## footer section
 
@@ -58,6 +60,7 @@ Give a :star:️ if you like this project!
 ## Acknowledgments
 
 - Microverse HTML & CSS3 project.
+- The Odin Project
 
 ## :memo: License
 
