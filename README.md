@@ -13,7 +13,7 @@ Clone Apple home page
 - which is absolutely positioned on the hero section
 - The navbar includes a search input which expands on focus
 
-## Heo section
+## Hero section
 
 - Consist of an hero Image
 - h2 link, which connects to a video
