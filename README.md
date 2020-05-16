@@ -2,6 +2,9 @@
 
 Clone Apple home page
 
+# Live link
+  https://haroonabdulrazaq.github.io/Apple_Clone/
+
 # Building with Backgrounds and Gradients
 
 > This project is a clone of Apple homepage page.
