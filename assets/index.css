@@ -5,7 +5,7 @@
 }
 
 body {
-  max-width:100%;
+  max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 110vh 15vh;
@@ -23,8 +23,8 @@ a {
 .navigation {
   background: linear-gradient(#888 50%, #444 30%, #888);
   position: absolute;
-  top: 3em;
-  left: 13em;
+  top: 9%;
+  left: 20%;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@ a {
 .link {
   padding: 0.5em 1.7em;
   border-right: 1px solid #999;
-  font-weight:500;
+  font-weight: 500;
 }
 
 .link:hover {
@@ -169,8 +169,10 @@ p {
   width: 70%;
   margin: 2em auto 0.3em;
 }
-.main-footer, .contact{
-  color:#999;
+
+.main-footer,
+.contact {
+  color: #999;
   letter-spacing: 0.07em;
 }
 
