@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 110vh 15vh;
@@ -23,8 +23,8 @@ a {
 .navigation {
   background: linear-gradient(#888 50%, #444 30%, #888);
   position: absolute;
-  top: 3em;
-  left: 13em;
+  top: 9%;
+  left: 20%;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -44,6 +44,7 @@ a {
 .link {
   padding: 0.5em 1.7em;
   border-right: 1px solid #999;
+  font-weight: 500;
 }
 
 .link:hover {
@@ -94,10 +95,10 @@ form {
 }
 
 .hero {
+  font-family: "Montserrat", sans-serif;
   height: 100%;
   width: 100%;
-  background: url("https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg")
-    95% 95% no-repeat;
+  background: url("https://web.archive.org/web/20140228160919im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 95% 95% no-repeat;
 }
 
 .header1 {
@@ -142,26 +143,22 @@ p {
 
 .grid-1 {
   background: brown;
-  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_iphone5s.jpg")
-    no-repeat;
+  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_iphone5s.jpg") no-repeat;
 }
 
 .grid-2 {
   background: rgb(165, 252, 3);
-  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_iphone5c.jpg")
-    no-repeat;
+  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_iphone5c.jpg") no-repeat;
 }
 
 .grid-3 {
   background: white;
-  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_30_years.jpg")
-    no-repeat;
+  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_30_years.jpg") no-repeat;
 }
 
 .grid-4 {
   background: rgb(165, 252, 3);
-  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg")
-    no-repeat;
+  background: url("https://web.archive.org/web/20140228164946im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
 }
 
 .main-footer {
@@ -173,12 +170,18 @@ p {
   margin: 2em auto 0.3em;
 }
 
+.main-footer,
+.contact {
+  color: #999;
+  letter-spacing: 0.07em;
+}
+
 ul > li {
   display: inline-block;
 }
 
 .contact {
   width: 100%;
-  margin-left: 18em;
+  margin-left: 15%;
   font-size: 0.7em;
 }

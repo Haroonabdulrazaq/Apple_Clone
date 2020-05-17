@@ -2,7 +2,11 @@
 
 Clone Apple home page
 
+<<<<<<< HEAD
 # Live Link
+=======
+# Live link
+>>>>>>> aaff1fca1c94bc8cb23e8f6e71f44275b8540ef3
   https://haroonabdulrazaq.github.io/Apple_Clone/
 
 # Building with Backgrounds and Gradients
@@ -16,7 +20,7 @@ Clone Apple home page
 - which is absolutely positioned on the hero section
 - The navbar includes a search input which expands on focus
 
-## Heo section
+## Hero section
 
 - Consist of an hero Image
 - h2 link, which connects to a video
@@ -25,6 +29,8 @@ Clone Apple home page
 ## Grid section
 
 - Showing some grid picture directly under the hero image
+- The pictures includes some product image
+- Below it is footer section
 
 ## footer section
 
@@ -61,6 +67,7 @@ Give a :star:️ if you like this project!
 ## Acknowledgments
 
 - Microverse HTML & CSS3 project.
+- The Odin Project
 
 ## :memo: License
 
