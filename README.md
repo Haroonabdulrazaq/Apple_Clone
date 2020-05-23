@@ -2,9 +2,6 @@
 
 Clone Apple home page
 
-<<<<<<< HEAD
-# Live Link
-=======
 # Live link
 >>>>>>> aaff1fca1c94bc8cb23e8f6e71f44275b8540ef3
   https://haroonabdulrazaq.github.io/Apple_Clone/
