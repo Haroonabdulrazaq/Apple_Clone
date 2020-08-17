@@ -49,7 +49,7 @@ Clone Apple home page
 
 - Github: [@githubhandle](https://github.com/Haroonabdulrazaq?tab=repositories)
 - Twitter: [@twitterhandle](https://twitter.com/Hanq_o)
-- Linkedin: [linkedin](https://www.linkedin.com/in/haroon-abdulrazaq-817906100/)
+- Linkedin: [@linkedIn](https://www.linkedin.com/in/haroonabdulrazaq)
 
 ## :handshake: Contributing
 
