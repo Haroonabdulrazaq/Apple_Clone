@@ -1,14 +1,13 @@
-## Apple_Clone
+# Apple_Clone
+This project is focused on learning CSS Backgrounds and Gradients. Its a perfect clone of Old Apple website.
 
-Clone Apple home page
-
-## Live Demo link
+# Live link
   [Apple Clone](https://haroonabdulrazaq.github.io/Apple_Clone/)
 
 # Building with Backgrounds and Gradients
 
 > This project is a clone of Apple homepage page.
-> ![screenshot](https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-twotoone-RsCjwiZSlzsFJQ.jpg)
+> ![screenshot]("./assets/img/screenshot.png")
 
 ## Built With 🔧
 
