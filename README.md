@@ -31,6 +31,8 @@ $ git clone https://github.com/Haroonabdulrazaq/Apple_Clone
 $ cd Apple_Clone
 
 ```
+## Install
+- No installation for this project
 
 ## Set up
 - Clone this Project to your local machine
