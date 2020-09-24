@@ -1,55 +1,73 @@
-# Apple_Clone
+## Apple_Clone
 
 Clone Apple home page
 
-# Live link
-  https://haroonabdulrazaq.github.io/Apple_Clone/
+## Live Demo link
+  [Apple Clone](https://haroonabdulrazaq.github.io/Apple_Clone/)
 
 # Building with Backgrounds and Gradients
 
 > This project is a clone of Apple homepage page.
 > ![screenshot](https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-twotoone-RsCjwiZSlzsFJQ.jpg)
 
-## Navigation bar
-
-- The navbar includes the apple logo and some links like store and ipad..
-- which is absolutely positioned on the hero section
-- The navbar includes a search input which expands on focus
-
-## Hero section
-
-- Consist of an hero Image
-- h2 link, which connects to a video
-- when hovered on it, underlines
-
-## Grid section
-
-- Showing some grid picture directly under the hero image
-- The pictures includes some product image
-- Below it is footer section
-
-## footer section
-
-- The footer section consist of links
-- It include some contact info
-- It underlines when hovered on
-
-## Built With
+## Built With 🔧
 
 - HTML5
 - CSS3
 
-## Getting Started
+# Getting Started 🚀
 
-**Open index.html in the browser**
+These instructions will get you a copy of the project up and running on your local machine.
 
-## Author
 
-:bust_in_silhouette: **@Haroonabdulrazaq**
+## How To Use 🔧
 
-- Github: [@githubhandle](https://github.com/Haroonabdulrazaq?tab=repositories)
-- Twitter: [@twitterhandle](https://twitter.com/Hanq_o)
-- Linkedin: [linkedin](https://www.linkedin.com/in/haroon-abdulrazaq-817906100/)
+From your command line, first clone the project:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Haroonabdulrazaq/Apple_Clone
+
+# Go into the repository
+$ cd Apple_Clone
+
+```
+
+## Set up
+- Clone this Project to your local machine
+- Change directory into this project
+- Open it in your prefered IDE(Integrated Development Environment)
+
+## Prerequisite
+- Integrated Development Evnvironment
+
+## Test
+- [HTML Validator](https://validator.w3.org/)
+- CSS code linters
+
+## Deployment
+
+- Deployed Using Github ```gh-pages```
+
+## Author 
+
+👤 **Haroon Abdulrazaq**
+
+- Github: [@githubhandle](https://github.com/Haroonabdulrazaq)
+- Twitter: [@twitterhandle](https://twitter.com/hanq_o)
+- Linkedin: [linkedin](https://www.linkedin.com/in/haroonabdulrazaq)
+
+## Show your support
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- We'd like to thank our standup group for reviewing our project.
+- We also acknowledge Microverse, the global remote school for developers.
+- Lastly we appreciate The Odin Project for creating the project and Flexbox Zombies for teaching Flexbox in a fun way.
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
 
 ## :handshake: Contributing
 
